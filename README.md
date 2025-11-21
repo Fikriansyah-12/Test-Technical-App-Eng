@@ -5,44 +5,44 @@ Repository ini berisi source code untuk technical test posisi **Application Engi
 - **Backend**: NestJS + TypeScript + PostgreSQL + Prisma
 - **Frontend**: Next.js + TypeScript + Ant Design
 
-## BACKEND NEST JS
+# BACKEND NEST JS
 
 ## Buat .env di folder Backend & koneksi PostgreSQL
 - **DATABASE_URL**="postgresql://postgres:password@localhost:5432/technical_test_db?schema=public"
 
-# JWT secret untuk sign token
-JWT_SECRET="jwtsecrettechnicaltest"
+## JWT secret untuk sign token
+- **JWT_SECRET**="jwtsecrettechnicaltest"
 
-# Project Setup
-cd backend
-npm install
+## Project Setup
+- **cd backend**
+- **npm install**
 
-# Generate Prisma Client
-npx prisma generate
+## Generate Prisma Client
+- **npx prisma generate**
 
-# (opsional) jalankan migrasi kalau diperlukan
-npx prisma migrate dev --name init
+## (opsional) jalankan migrasi kalau diperlukan
+- **npx prisma migrate dev --name init**
 
-# Jalankan NestJS
-npm run start:dev
+## Jalankan NestJS
+- **npm run start:dev**
 
 ----------------------------------------
 
-## FRONT END NEXT JS
+# FRONT END NEXT JS
 
-# Buat .env di folder Frontend
-NEXT_PUBLIC_API_URL=http://localhost:3000/api/v1
+## Buat .env di folder Frontend
+- **NEXT_PUBLIC_API_URL**=http://localhost:3000/api/v1
 
 
-# Project Setup
-cd frontend
-npm install
+## Project Setup
+- **cd frontend**
+- **npm install**
 
-# Jalankan NextJs
-npm run dev
+## Jalankan NextJs
+- **npm run dev**
 
 ------------
-## Jawaban Nomor 3
+# Jawaban Nomor 3
 
 3. Soal 3 – Raw SQL Query (tanpa ORM) + Manipulasi ID
 
