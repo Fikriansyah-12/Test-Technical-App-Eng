@@ -7,9 +7,8 @@ Repository ini berisi source code untuk technical test posisi **Application Engi
 
 ## BACKEND NEST JS
 
-# Buat .env di folder Backend 
-# koneksi PostgreSQL
-DATABASE_URL="postgresql://postgres:password@localhost:5432/technical_test_db?schema=public"
+## Buat .env di folder Backend & koneksi PostgreSQL
+- **DATABASE_URL**="postgresql://postgres:password@localhost:5432/technical_test_db?schema=public"
 
 # JWT secret untuk sign token
 JWT_SECRET="jwtsecrettechnicaltest"
