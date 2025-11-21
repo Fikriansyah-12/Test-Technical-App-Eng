@@ -38,10 +38,16 @@ Repository ini berisi source code untuk technical test posisi **Application Engi
 - **cd frontend**
 - **npm install**
 
+## Sebelum itu Jalankan Backend nya juga agar bisa melihat hasil dari view next js nya
+- **cd backend**
+
+
 ## Jalankan NextJs
 - **npm run dev**
+- **npm run start:dev**
 
 ------------
+
 # Jawaban Nomor 3
 
 3. Soal 3 – Raw SQL Query (tanpa ORM) + Manipulasi ID
