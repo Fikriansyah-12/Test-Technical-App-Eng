@@ -34,7 +34,7 @@ useEffect(() => {
     try {
       setLoading(true);
       const res = await fetch(
-        `${API_BASE_URL}/random-user/fetch?results=10&page=1`,
+        `${API_BASE_URL}/random-user/fetch?results=20&page=2`,
       );
 
       if (!res.ok) {
